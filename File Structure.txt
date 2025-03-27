@@ -1,0 +1,28 @@
+📁 chat-room-app  
+├── 📁 public  
+│   ├── (any static assets like logos)  
+├── 📁 src  
+│   ├── 📁 app  
+│   │   ├── 📁 auth  
+│   │   │   ├── page.tsx  (Authentication page)  
+│   │   ├── 📁 chat  
+│   │   │   ├── page.tsx  (Chat room page)  
+│   │   ├── layout.tsx  (Root layout)  
+│   │   ├── page.tsx  (Landing page)  
+│   ├── 📁 components  
+│   │   ├── AuthForm.tsx  (Sign In / Sign Up form)  
+│   │   ├── GoogleSignInButton.tsx  
+│   ├── 📁 firebase  
+│   │   ├── config.ts  (Firebase setup)  
+│   │   ├── auth.ts  (Auth functions)  
+│   ├── 📁 hooks  
+│   │   ├── useAuth.ts  (Custom hook for auth state)  
+│   ├── 📁 styles  
+│   │   ├── globals.css  (Tailwind styles)  
+│   ├── 📁 utils  
+│   │   ├── validate.ts  (Form validation functions)  
+├── .env.local  (Environment variables)  
+├── next.config.js  
+├── package.json  
+├── tailwind.config.ts  
+├── tsconfig.json  
